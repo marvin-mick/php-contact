@@ -48,4 +48,4 @@
       $var = htmlspecialchars($var);
       return $var;
     }
-    ?>
+?>
