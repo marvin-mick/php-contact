@@ -33,7 +33,7 @@
 
       if ($isSuccess){
         $headers = "From : $name <$email>\r\n Reply-To : $email";
-        mail($emailTo, "Un nouveau message de MMfilms", $emailText, $headers);
+        mail($emailTo, "Un nouveau message", $emailText, $headers);
         $name = $email = $text = "";
       }
     }
